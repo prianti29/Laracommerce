@@ -2,7 +2,7 @@
     {{-- <x-slot name="pagetitle"></x-slot> --}}
 
     <x-backend.elements.breadcrumb>
-        gggggg
+        <x-slot name></x-slot>
     </x-backend.elements.breadcrumb>
 
 
