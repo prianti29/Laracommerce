@@ -2,7 +2,8 @@
     {{-- <x-slot name="pagetitle"></x-slot> --}}
 
     <x-backend.elements.breadcrumb>
-        <x-slot name></x-slot>
+        <x-slot name="pageHeader">Dashboard</x-slot>
+        <li class="breadcrumb-item active">Dashboard</li>
     </x-backend.elements.breadcrumb>
 
 
